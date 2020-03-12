@@ -7,3 +7,8 @@
 .housing-type-switch {
   display: flex;
 }
+
+footer {
+  background-color: black;
+  color: white;
+}

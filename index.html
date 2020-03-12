@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="header">
+    <header
       <div class="left">
         <svg
           class="logo"
@@ -49,91 +49,309 @@
         </svg>
         <div class="menu-burger"></div>
       </div>
-    </div>
+    </header>
 
-    <h2>Аренда жилья без посредников в Крыму</h2>
-    <a href="#">Выбрать город</a>
+    <main>
+      
+      <h2>Аренда жилья без посредников в Крыму</h2>        
 
-    <form action="" method="get">
-      <div class="rent-duration-switch">
-        <input
-          type="radio"
-          name="rent-duration"
-          id="long-term"
-          value="long-term"
-        />
-        <label for="long-term">Долгосрочно</label>
-        <input
-          type="radio"
-          name="rent-duration"
-          id="short-term"
-          value="short-term"
-        />
-        <label for="short-term">Посуточно</label>
+      <form action="" method="get">
+        <label for="search-location-select">Выбрать город</label>
+        <select name="location-select" id="search-location-select">
+          <option value="alupka">Алупка</option>
+          <option value="alushta">Алушта</option>
+          <option value="armyansk">Армянск</option>
+          <option value="bahchisaray">Бахчисарай</option>
+          <option value="belogorsk">Белогорск</option>
+          <option value="djankoy">Джанкой</option>
+          <option value="yevpatoria">Евпатория</option>
+          <option value="kerch">Керчь</option>
+          <option value="krasnoperekopsk">Красноперекопск</option>
+          <option value="saki">Саки</option>
+          <option value="simferopol">Симферополь</option>
+          <option value="stariy-krim">Старый Крым</option>
+          <option value="sudak">Судак</option>
+          <option value="feodosia">Феодосия</option>
+          <option value="shelkino">Щелкино</option>
+          <option value="yalta">Ялта</option>
+        </select>
+        <div class="rent-duration-switch">
+          <input
+            type="radio"
+            name="rent-duration"
+            id="search-long-term"
+            value="long-term"
+          />
+          <label for="search-long-term">Долгосрочно</label>
+          <input
+            type="radio"
+            name="rent-duration"
+            id="search-short-term"
+            value="short-term"
+          />
+          <label for="search-short-term">Посуточно</label>
+        </div>
+
+        <div class="housing-type-switch">
+          <div>
+            <input type="radio" name="housing-type" id="search-flat" value="flat" />
+            <label for="search-flat">Квартира</label>
+            <input type="radio" name="housing-type" id="search-home" value="home" />
+            <label for="search-home">Дом</label>
+          </div>
+
+          <div>
+            <input
+              type="radio"
+              name="rooms-count"
+              id="search-rooms-count-one"
+              value="1"
+            />
+            <label for="search-rooms-count-one">1</label>
+            <input
+              type="radio"
+              name="rooms-count"
+              id="search-rooms-count-two"
+              value="2"
+            />
+            <label for="search-rooms-count-two">2</label>
+            <input
+              type="radio"
+              name="rooms-count"
+              id="search-rooms-count-three"
+              value="3"
+            />
+            <label for="search-rooms-count-three">3</label>
+            <input
+              type="radio"
+              name="rooms-count"
+              id="search-rooms-count-four"
+              value="4"
+            />
+            <label for="search-rooms-count-four">4</label>
+          </div>
+        </div>
+        <input type="submit" value="Искать объявления">
+      </form>
+
+      <div class="about-us">
+        <h3>Зеленая комната это:</h3>
+        <ul>
+          <li><strong>Надежная аренда жилья</strong> от собственника без переплат посредникам</li>
+          <li><strong>Система оповещений</strong> новых объявлений по фильтрам. Это сэкономит время на поиске жилья</li>
+          <li><strong>Автоматический алгоритм</strong> по поиску и сбору обьявлений с досок объявлений и соцсетей</li>
+          <li><strong>Ручная модерация</strong> всех объявлений.Мы звоним по объявлению и проверяем информацию от собственника</li>
+        </ul>
       </div>
 
-      <div class="housing-type-switch">
-        <div>
-          <input type="radio" name="housing-type" id="flat" value="flat" />
-          <label for="flat">Квартира</label>
-          <input type="radio" name="housing-type" id="home" value="home" />
-          <label for="home">Дом</label>
+      <div class="posts-container">  
+        <div class="posts-container__header">
+          <h3>Объявления всех городов</h3>
+          <div>
+              <label for="search-location-select">Выбрать город</label>
+              <select name="location-select" id="search-location-select">
+                <option value="alupka">Алупка</option>
+                <option value="alushta">Алушта</option>
+                <option value="armyansk">Армянск</option>
+                <option value="bahchisaray">Бахчисарай</option>
+                <option value="belogorsk">Белогорск</option>
+                <option value="djankoy">Джанкой</option>
+                <option value="yevpatoria">Евпатория</option>
+                <option value="kerch">Керчь</option>
+                <option value="krasnoperekopsk">Красноперекопск</option>
+                <option value="saki">Саки</option>
+                <option value="simferopol">Симферополь</option>
+                <option value="stariy-krim">Старый Крым</option>
+                <option value="sudak">Судак</option>
+                <option value="feodosia">Феодосия</option>
+                <option value="shelkino">Щелкино</option>
+                <option value="yalta">Ялта</option>
+              </select>
+            <p>Найдено: 152</p>
+          </div>
+        </div>
+        <div class="posts-container__posts-list">
+          <div class="post">
+            <div class="photos">
+              <img src="./img/1/1.png" alt="фотография помещения">
+              <img src="./img/1/2.png" alt="фотография помещения">
+              <img src="./img/1/3.png" alt="фотография помещения">
+              <img src="./img/1/4.png" alt="фотография помещения">
+        
+            </div>
+            <div class="description">
+              <div class="description-header">
+                <div class="description-header-title">
+                  <h4><a href="#">1 ком. кв, 33 м<sup>2</sup>, с мебелью, 1/2 эт.</a></h4>
+                  <div class="address">ул. Орлова, д. 26</div>
+                  <div class="price">19 000 ₽/мес.</div>
+                </div>
+
+              </div>
+              <div class="description-text">
+                <p>
+                    Сдам 1-комнатную квартиру с мебелью. Теплая, уютная. Комнаты изолированы
+                    Находится на пересечении Малахова-П.Сухова... <a href="#">Читать далее ↓</a>
+                </p>
+              </div>             
+              <button>Телефон собственника</button>
+            </div>
+          </div>        
+          <div class="post">
+            <div class="photos">
+              <img src="./img/2/1.png" alt="фотография помещения">
+              <img src="./img/2/2.png" alt="фотография помещения">
+              <img src="./img/2/3.png" alt="фотография помещения">
+              <img src="./img/2/4.png" alt="фотография помещения">
+        
+            </div>
+            <div class="description">
+              <div class="description-header">
+                <div class="description-header-title">
+                  <h4><a href="#">1 ком. кв, 35 м<sup>2</sup>, с мебелью, 3/5 эт.</a></h4>
+                  <div class="address">ул. Орлова, д. 26</div>
+                  <div class="price">19 000 ₽/мес.</div>
+                </div>
+
+              </div>
+              <div class="description-text">
+                <p>
+                    Сдам 1-комнатную квартиру с мебелью. Теплая, уютная. Комнаты изолированы
+                    Находится на пересечении Малахова-П.Сухова... <a href="#">Читать далее ↓</a>
+                </p>
+              </div>             
+              <button>8 978 854 87 92</button>
+            </div>
+          </div>        
+        </div>
+        <div class="posts-container__paginator">
+          <button><</button>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
+          <button>5</button>
+          <button>></button>
         </div>
 
-        <div>
-          <input
-            type="radio"
-            name="rooms-count"
-            id="rooms-count-one"
-            value="1"
-          />
-          <label for="rooms-count-one">1</label>
-          <input
-            type="radio"
-            name="rooms-count"
-            id="rooms-count-two"
-            value="2"
-          />
-          <label for="rooms-count-two">2</label>
-          <input
-            type="radio"
-            name="rooms-count"
-            id="rooms-count-three"
-            value="3"
-          />
-          <label for="rooms-count-three">3</label>
-          <input
-            type="radio"
-            name="rooms-count"
-            id="rooms-count-four"
-            value="4"
-          />
-          <label for="rooms-count-four">4</label>
-        </div>
       </div>
-      <input type="submit" value="Искать объявления"></input>
-    </form>
 
-    <div class="about-us">
-      <h3>Зеленая комната это:</h3>
-      <ul>
-        <li><strong>Надежная аренда жилья</strong> от собственника без переплат посредникам</li>
-        <li><strong>Система оповещений</strong> новых объявлений по фильтрам. Это сэкономит время на поиске жилья</li>
-        <li><strong>Автоматический алгоритм</strong> по поиску и сбору обьявлений с досок объявлений и соцсетей</li>
-        <li><strong>Ручная модерация</strong> всех объявлений.Мы звоним по объявлению и проверяем информацию от собственника</li>
-      </ul>
-    </div>
+      <div class="subscription">
+        <h3>Подпишись на оповещения новых объявлений</h3>
+        <p>Оповещения приходят на сайте</p>
 
-    <div class="posts-container">  
-      <div class="posts-header">
-        <h3>Объявления всех городов</h3>
-        <div>
-          <h4>Ваш город: <a href="#">Выбрать</a></h4>
-          <p>Найдено: 152</p>
-        </div>
-      </div>    
+        <form action="" method="post">
+            <label for="subscription-location-select">Ваш город:</label>
+            <select name="subscription-location-select" id="subscription-location-select">
+              <option value="alupka">Алупка</option>
+              <option value="alushta">Алушта</option>
+              <option value="armyansk">Армянск</option>
+              <option value="bahchisaray">Бахчисарай</option>
+              <option value="belogorsk">Белогорск</option>
+              <option value="djankoy">Джанкой</option>
+              <option value="yevpatoria">Евпатория</option>
+              <option value="kerch">Керчь</option>
+              <option value="krasnoperekopsk">Красноперекопск</option>
+              <option value="saki">Саки</option>
+              <option value="simferopol">Симферополь</option>
+              <option value="stariy-krim">Старый Крым</option>
+              <option value="sudak">Судак</option>
+              <option value="feodosia">Феодосия</option>
+              <option value="shelkino">Щелкино</option>
+              <option value="yalta">Ялта</option>
+            </select>
+            <div class="rent-duration-switch">
+              <input
+                type="radio"
+                name="rent-duration"
+                id="subscription-long-term"
+                value="long-term"
+              />
+              <label for="subscription-long-term">Долгосрочно</label>
+              <input
+                type="radio"
+                name="rent-duration"
+                id="subscription-short-term"
+                value="short-term"
+              />
+              <label for="subscription-short-term">Посуточно</label>
+            </div>
+      
+            <div class="housing-type-switch">
+              <div>
+                <input type="radio" name="housing-type" id="subscription-flat" value="flat" />
+                <label for="subscription-flat">Квартира</label>
+                <input type="radio" name="housing-type" id="subscription-home" value="home" />
+                <label for="subscription-home">Дом</label>
+              </div>
+      
+              <div>
+                <input
+                  type="radio"
+                  name="rooms-count"
+                  id="subscription-rooms-count-one"
+                  value="1"
+                />
+                <label for="subscription-rooms-count-one">1</label>
+                <input
+                  type="radio"
+                  name="rooms-count"
+                  id="subscription-rooms-count-two"
+                  value="2"
+                />
+                <label for="subscription-rooms-count-two">2</label>
+                <input
+                  type="radio"
+                  name="rooms-count"
+                  id="subscription-rooms-count-three"
+                  value="3"
+                />
+                <label for="subscription-rooms-count-three">3</label>
+                <input
+                  type="radio"
+                  name="rooms-count"
+                  id="subscription-rooms-count-four"
+                  value="4"
+                />
+                <label for="subscription-rooms-count-four">4</label>
+              </div>
+            </div>
+            <input type="submit" value="Подписаться">
+          </form>       
 
-    </div>
+      </div>
+    </main>
+
+    <footer>
+      <a href="https://vk.com">
+        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <g clip-path="url(#clip0)">
+          <path d="M12.5 8.30815V7.92251L14.5125 5.40626C14.8277 5.01172 14.9995 4.52185 15 4.01689C14.9997 3.52447 14.6005 3.12536 14.1081 3.125H11.9156C11.577 3.12386 11.271 3.32657 11.14 3.63875C10.716 4.80498 10.1581 5.91805 9.47749 6.95563C9.26798 7.12001 8.97935 7.13982 8.74937 7.00564V3.80876C8.74732 3.43224 8.44278 3.12741 8.06626 3.125H5.31249C5.13991 3.12468 4.99975 3.26437 4.99943 3.43696C4.99928 3.52016 5.03233 3.6 5.09124 3.65876L5.26249 3.83C5.49507 4.06122 5.62559 4.37581 5.62498 4.70375V7.07876C5.59568 7.10868 5.55794 7.12895 5.51684 7.13689C5.40088 7.11899 5.29559 7.0589 5.22121 6.96814C4.41692 5.80136 3.70477 4.57368 3.0912 3.29627C3.03797 3.19122 2.93022 3.12503 2.81244 3.12503H0.812492C0.363781 3.12503 1.1317e-06 3.48878 1.1317e-06 3.93752V4.0969C-0.000526212 4.75608 0.183253 5.40228 0.530626 5.96252C2.20688 8.65939 4.50563 11.875 5.93751 11.875H7.98188C8.40581 11.8743 8.74931 11.5308 8.75002 11.1069V10.5719C8.74987 10.2564 9.00551 10.0005 9.32101 10.0004C9.47283 10.0003 9.6184 10.0607 9.72563 10.1681L11.0231 11.4656C11.2853 11.7287 11.6417 11.876 12.0131 11.875H14.2431C14.6605 11.8744 14.9983 11.5356 14.9976 11.1183C14.9973 10.9185 14.918 10.727 14.7769 10.5856L12.5 8.30815Z" fill="#161616"/>
+          </g>
+          <defs>
+          <clipPath id="clip0">
+          <rect width="15" height="15" fill="white"/>
+          </clipPath>
+          </defs>
+          </svg>
+          
+      </a>
+      <a href="#">Подать объявление</a>
+      <div class="footer-logo">
+        <svg width="16" height="23" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.01591 1.25756C8.95241 1.19619 8.85313 1.10078 8.75487 1.02501C8.65095 0.944872 8.3569 0.729978 7.92344 0.72998C7.48998 0.729983 7.19594 0.944879 7.09202 1.02502C6.99072 1.10313 6.88835 1.2021 6.8252 1.26315C6.82147 1.26676 6.81788 1.27024 6.81443 1.27357L1.3336 6.41199C0.728705 6.9791 0.387451 7.7579 0.387451 8.57127V20.8007C0.387451 21.2498 0.606599 21.6116 0.841874 21.8412C1.0763 22.07 1.4532 22.2902 1.92758 22.2902H14.4599C14.9343 22.2902 15.3112 22.07 15.5456 21.8412C15.7809 21.6116 16 21.2498 16 20.8007V11.8324C16 11.3834 15.7809 11.0215 15.5456 10.7919C15.3112 10.5631 14.9343 10.3429 14.4599 10.3429H5.26953C4.79515 10.3429 4.41824 10.5631 4.18382 10.7919C3.94855 11.0215 3.7294 11.3834 3.7294 11.8324V17.5395C3.7294 17.9886 3.94855 18.3505 4.18382 18.58C4.41825 18.8088 4.79515 19.029 5.26953 19.029H11.1179C11.5923 19.029 11.9692 18.8088 12.2036 18.58C12.4389 18.3505 12.6581 17.9886 12.6581 17.5395V15.0936C12.6581 14.6445 12.4389 14.2827 12.2036 14.0531C11.9692 13.8243 11.5923 13.6041 11.1179 13.6041H8.88549V15.7678H10.4133V16.8651L5.97417 16.8653V12.5067H13.7552V20.1264H2.63222V9.2455H14.4599C14.7478 9.2455 15.3369 9.17311 15.6822 8.63229C15.9985 8.13696 15.8488 7.63842 15.7756 7.44695C15.61 7.01407 15.2577 6.63258 14.9833 6.39627L9.01591 1.25756ZM3.83876 7.08175H12.41L7.94234 3.23453L3.83876 7.08175Z" fill="white"/>
+          <path d="M10.0399 14.6862C10.0399 15.2837 9.53743 15.768 8.91756 15.768C8.29768 15.768 7.79517 15.2837 7.79517 14.6862C7.79517 14.0887 8.29768 13.6043 8.91756 13.6043C9.53743 13.6043 10.0399 14.0887 10.0399 14.6862Z" fill="white"/>
+        </svg>
+      </div>
+      <div class="footer-feedback">
+        <p>Связь: <a href="mailto:greenroom@work.ru">greenroom@work.ru</a></p>
+        <a href="#">Пользовательское соглашение</a>
+      </div>
+
+
+    </footer>
+
+
 
   </body>
 </html>
