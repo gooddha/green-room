@@ -1,11 +1,22 @@
-.header,
-.header .left,
-.header .right {
+header,
+header .left,
+header .right {
   display: flex;
 }
 
 .housing-type-switch {
   display: flex;
+}
+
+.photos {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.photos img {
+  max-width: 50%;
+  max-height: 200px;
 }
 
 footer {
