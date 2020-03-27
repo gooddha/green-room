@@ -68,113 +68,120 @@
     </header>
 
     <main>
-      <h2>Аренда жилья без посредников в Крыму</h2>
+      <div class="main-top">
 
-      <form action="" method="get">
-        <label for="search-location-select">Выбрать город</label>
-        <select name="location-select" id="search-location-select">
-          <option value="alupka">Алупка</option>
-          <option value="alushta">Алушта</option>
-          <option value="armyansk">Армянск</option>
-          <option value="bahchisaray">Бахчисарай</option>
-          <option value="belogorsk">Белогорск</option>
-          <option value="djankoy">Джанкой</option>
-          <option value="yevpatoria">Евпатория</option>
-          <option value="kerch">Керчь</option>
-          <option value="krasnoperekopsk">Красноперекопск</option>
-          <option value="saki">Саки</option>
-          <option value="simferopol">Симферополь</option>
-          <option value="stariy-krim">Старый Крым</option>
-          <option value="sudak">Судак</option>
-          <option value="feodosia">Феодосия</option>
-          <option value="shelkino">Щелкино</option>
-          <option value="yalta">Ялта</option>
-        </select>
-        <div class="rent-duration-switch">
-          <input
-            type="radio"
-            name="rent-duration"
-            id="search-long-term"
-            value="long-term"
-          />
-          <label for="search-long-term">Долгосрочно</label>
-          <input
-            type="radio"
-            name="rent-duration"
-            id="search-short-term"
-            value="short-term"
-          />
-          <label for="search-short-term">Посуточно</label>
-        </div>
+        <h2>Аренда жилья без посредников в Крыму</h2>
+        
+        <form action="" method="get">
+          <label for="search-location-select">Выбрать город</label>
+          <select name="location-select" id="search-location-select">
+            <option value="alupka">Алупка</option>
+            <option value="alushta">Алушта</option>
+            <option value="armyansk">Армянск</option>
+            <option value="bahchisaray">Бахчисарай</option>
+            <option value="belogorsk">Белогорск</option>
+            <option value="djankoy">Джанкой</option>
+            <option value="yevpatoria">Евпатория</option>
+            <option value="kerch">Керчь</option>
+            <option value="krasnoperekopsk">Красноперекопск</option>
+            <option value="saki">Саки</option>
+            <option value="simferopol">Симферополь</option>
+            <option value="stariy-krim">Старый Крым</option>
+            <option value="sudak">Судак</option>
+            <option value="feodosia">Феодосия</option>
+            <option value="shelkino">Щелкино</option>
+            <option value="yalta">Ялта</option>
+          </select>
+          <div class="rent-settings">
 
-        <div class="housing-type-switch">
-          <div>
-            <input
+            <div class="rent-duration-switch">
+              <input
               type="radio"
-              name="housing-type"
-              id="search-flat"
-              value="flat"
-            />
-            <label for="search-flat">Квартира</label>
-            <input
+              name="rent-duration"
+              id="search-long-term"
+              value="long-term"
+              />
+              <label for="search-long-term">Долгосрочно</label>
+              <input
               type="radio"
-              name="housing-type"
-              id="search-home"
-              value="home"
-            />
-            <label for="search-home">Дом</label>
+              name="rent-duration"
+              id="search-short-term"
+              value="short-term"
+              />
+              <label for="search-short-term">Посуточно</label>
+            </div>
+            
+            <div class="housing-type-switch">
+              <div>
+                <input
+                type="radio"
+                name="housing-type"
+                id="search-flat"
+                value="flat"
+                />
+                <label for="search-flat">Квартира</label>
+                <input
+                type="radio"
+                name="housing-type"
+                id="search-home"
+                value="home"
+                />
+                <label for="search-home">Дом</label>
+              </div>
+              
+              <div>
+                <input
+                type="radio"
+                name="rooms-count"
+                id="search-rooms-count-one"
+                value="1"
+                />
+                <label for="search-rooms-count-one">1</label>
+                <input
+                type="radio"
+                name="rooms-count"
+                id="search-rooms-count-two"
+                value="2"
+                />
+                <label for="search-rooms-count-two">2</label>
+                <input
+                type="radio"
+                name="rooms-count"
+                id="search-rooms-count-three"
+                value="3"
+                />
+                <label for="search-rooms-count-three">3</label>
+                <input
+                type="radio"
+                name="rooms-count"
+                id="search-rooms-count-four"
+                value="4"
+                />
+                <label for="search-rooms-count-four">4</label>
+              </div>
+            </div>
+            <input type="submit" value="Искать объявления" class="search-button"/>
           </div>
-
-          <div>
-            <input
-              type="radio"
-              name="rooms-count"
-              id="search-rooms-count-one"
-              value="1"
-            />
-            <label for="search-rooms-count-one">1</label>
-            <input
-              type="radio"
-              name="rooms-count"
-              id="search-rooms-count-two"
-              value="2"
-            />
-            <label for="search-rooms-count-two">2</label>
-            <input
-              type="radio"
-              name="rooms-count"
-              id="search-rooms-count-three"
-              value="3"
-            />
-            <label for="search-rooms-count-three">3</label>
-            <input
-              type="radio"
-              name="rooms-count"
-              id="search-rooms-count-four"
-              value="4"
-            />
-            <label for="search-rooms-count-four">4</label>
           </div>
+          </form>
         </div>
-        <input type="submit" value="Искать объявления" />
-      </form>
-
-      <div class="about-us">
-        <h3>Зеленая комната это:</h3>
-        <ul>
-          <li>
-            <strong>Надежная аренда жилья</strong> от собственника без переплат
-            посредникам
-          </li>
-          <li>
-            <strong>Система оповещений</strong> новых объявлений по фильтрам.
-            Это сэкономит время на поиске жилья
-          </li>
-          <li>
-            <strong>Автоматический алгоритм</strong> по поиску и сбору
-            обьявлений с досок объявлений и соцсетей
-          </li>
-          <li>
+        
+        <div class="about-us">
+          <h3>Зеленая комната это:</h3>
+          <ul>
+            <li>
+              <strong>Надежная аренда жилья</strong> от собственника без переплат
+              посредникам
+            </li>
+            <li>
+              <strong>Система оповещений</strong> новых объявлений по фильтрам.
+              Это сэкономит время на поиске жилья
+            </li>
+            <li>
+              <strong>Автоматический алгоритм</strong> по поиску и сбору
+              обьявлений с досок объявлений и соцсетей
+            </li>
+            <li>
             <strong>Ручная модерация</strong> всех объявлений.Мы звоним по
             объявлению и проверяем информацию от собственника
           </li>

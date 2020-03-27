@@ -14,11 +14,14 @@ header .right {
 }
 
 header {
+  position: fixed;
+  height: auto;
   margin-top: 12px;
   margin-left: 16px;
   margin-right: 16px;
   justify-content: space-between;
   align-items: flex-end;
+  width: calc(100vw - 48px);
 }
 
 header .left {
@@ -60,7 +63,7 @@ header .left {
   align-items: center;
   position: absolute;
   top: 6px;
-  width: 24px;
+  width: 26px;
   height: 14px;
   cursor: pointer;
   z-index: 1;
@@ -146,8 +149,65 @@ header .left {
   background-color: #cfd8dc;
 }
 
+main {
+  padding-top: 0;
+}
+
+.main-top {
+  background-image: url('./img/main-top-background.jpg');
+  background-size: cover;
+  background-position: center;
+  min-height: 58vh;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 62px;
+}
+
+.main-top h2 {
+  margin-top: 120px;
+  margin-bottom: 0;
+}
+
+.main-top h2,
+.main-top form > label {
+  margin-left: 16px;
+  font-size: 28px;
+}
+
+.main-top form > label {
+  font-weight: 600;
+  color: #7e7e7e;
+  text-decoration: underline dashed;
+}
+
+.main-top select {
+  visibility: hidden;
+}
+
+.rent-settings {
+  margin: 0 5px;
+  margin-top: 52px;
+  background-color: #ffffff;
+  height: 150px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  padding: 0 30px;
+  padding-top: 25px;
+  border-radius: 5px;
+}
+
 .housing-type-switch {
   display: flex;
+}
+
+input.search-button {
+  background-color: #3dc55d;
+  border-radius: 5px;
+  border: none;
+  height: 48px;
+  position: relative;
+  top: 25%;
 }
 
 .photos {
