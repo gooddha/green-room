@@ -7,6 +7,10 @@
     <title>Green Room - Аренда жилья без посредников в Крыму</title>
     <link rel="stylesheet" href="normalize.css" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700,800,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
@@ -30,30 +34,41 @@
             fill="#3DC55D"
           />
         </svg>
-        <h1>Green Room</h1>
+        <h1 class="header-title">Green Room</h1>
       </div>
       <div class="right">
-        <svg
-          width="18"
-          height="21"
-          viewBox="0 0 18 21"
-          fill="none"
-          xmlns="http://www.w3.org/2000/svg"
-        >
-          <path
-            fill-rule="evenodd"
-            clip-rule="evenodd"
-            d="M6.28437 2.39446C6.6177 1.275 7.59528 0.132843 9.0433 0.132843C10.4917 0.132843 11.4683 1.27504 11.8042 2.39239C11.8059 2.39448 11.8081 2.3971 11.811 2.40013C11.8179 2.40731 11.8257 2.41391 11.8331 2.41904C11.8387 2.42293 11.8421 2.42461 11.8425 2.42481C12.6854 2.77186 13.6775 3.32622 14.4535 4.34119C15.2357 5.36432 15.7445 6.78463 15.7445 8.76616C15.7445 10.7418 15.953 11.8253 16.2599 12.569C16.5291 13.2211 16.883 13.6498 17.3866 14.2597C17.4601 14.3488 17.5369 14.4418 17.617 14.5399L17.6172 14.5401C18.5453 15.677 17.6689 17.2737 16.2392 17.2737H12.7696C12.7696 18.262 12.377 19.2098 11.6782 19.9086C10.9794 20.6074 10.0316 21 9.0433 21C8.05503 21 7.10724 20.6074 6.40843 19.9086C5.70961 19.2098 5.31703 18.262 5.31703 17.2737H1.85205C0.424974 17.2737 -0.466229 15.6851 0.469597 14.5399C0.549796 14.4417 0.626596 14.3487 0.7002 14.2595C1.20372 13.6497 1.55767 13.221 1.82704 12.5688C2.13428 11.825 2.34322 10.7416 2.34439 8.76616M6.80754 17.2737C6.80754 17.8667 7.04309 18.4354 7.46238 18.8546C7.88167 19.2739 8.45034 19.5095 9.0433 19.5095C9.63626 19.5095 10.2049 19.2739 10.6242 18.8546C11.0435 18.4354 11.2791 17.8667 11.2791 17.2737H6.80754ZM1.85205 15.7832C1.69888 15.7832 1.62992 15.7127 1.60223 15.6585C1.58627 15.6272 1.58149 15.5969 1.58379 15.5715C1.58582 15.5491 1.59412 15.5193 1.62378 15.483C1.69577 15.3949 1.76832 15.3074 1.84092 15.2199C2.34048 14.6179 2.84398 14.011 3.20467 13.1378C3.61926 12.1341 3.83371 10.8269 3.8349 8.76659V8.76616C3.8349 7.0495 4.26944 5.96381 4.81878 5.24552C5.37425 4.5192 6.10208 4.09624 6.814 3.80305L6.81417 3.80298C7.19361 3.6469 7.57221 3.29917 7.70895 2.83326L7.70949 2.8314C7.92155 2.10183 8.46953 1.62335 9.0433 1.62335C9.6171 1.62335 10.1652 2.10147 10.3801 2.83255L10.3806 2.83445C10.5165 3.29259 10.8911 3.64519 11.2748 3.803C11.9853 4.09548 12.7134 4.51926 13.2694 5.24648C13.8192 5.96562 14.254 7.0517 14.254 8.76616C14.254 10.8265 14.4678 12.1337 14.8822 13.1376C15.2426 14.011 15.7462 14.618 16.2458 15.2201C16.3184 15.3075 16.3908 15.3949 16.4628 15.4829C16.5094 15.5402 16.5132 15.5996 16.4829 15.6594C16.4547 15.7151 16.3868 15.7832 16.2392 15.7832H1.85205ZM6.28437 2.39446C6.28308 2.39598 6.28147 2.39779 6.27951 2.39983C6.27316 2.4064 6.26566 2.41275 6.25818 2.41791C6.25124 2.42269 6.24707 2.42457 6.24707 2.42457L6.24662 2.42475C5.40335 2.77201 4.41086 3.32533 3.63482 4.34005C2.85265 5.36279 2.34446 6.78289 2.34439 8.76573"
-            fill="#161616"
-          />
-        </svg>
-        <div class="menu-burger"></div>
+        <div class="header__bell">
+          <svg
+            width="18"
+            height="21"
+            viewBox="0 0 18 21"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              fill-rule="evenodd"
+              clip-rule="evenodd"
+              d="M6.28437 2.39446C6.6177 1.275 7.59528 0.132843 9.0433 0.132843C10.4917 0.132843 11.4683 1.27504 11.8042 2.39239C11.8059 2.39448 11.8081 2.3971 11.811 2.40013C11.8179 2.40731 11.8257 2.41391 11.8331 2.41904C11.8387 2.42293 11.8421 2.42461 11.8425 2.42481C12.6854 2.77186 13.6775 3.32622 14.4535 4.34119C15.2357 5.36432 15.7445 6.78463 15.7445 8.76616C15.7445 10.7418 15.953 11.8253 16.2599 12.569C16.5291 13.2211 16.883 13.6498 17.3866 14.2597C17.4601 14.3488 17.5369 14.4418 17.617 14.5399L17.6172 14.5401C18.5453 15.677 17.6689 17.2737 16.2392 17.2737H12.7696C12.7696 18.262 12.377 19.2098 11.6782 19.9086C10.9794 20.6074 10.0316 21 9.0433 21C8.05503 21 7.10724 20.6074 6.40843 19.9086C5.70961 19.2098 5.31703 18.262 5.31703 17.2737H1.85205C0.424974 17.2737 -0.466229 15.6851 0.469597 14.5399C0.549796 14.4417 0.626596 14.3487 0.7002 14.2595C1.20372 13.6497 1.55767 13.221 1.82704 12.5688C2.13428 11.825 2.34322 10.7416 2.34439 8.76616M6.80754 17.2737C6.80754 17.8667 7.04309 18.4354 7.46238 18.8546C7.88167 19.2739 8.45034 19.5095 9.0433 19.5095C9.63626 19.5095 10.2049 19.2739 10.6242 18.8546C11.0435 18.4354 11.2791 17.8667 11.2791 17.2737H6.80754ZM1.85205 15.7832C1.69888 15.7832 1.62992 15.7127 1.60223 15.6585C1.58627 15.6272 1.58149 15.5969 1.58379 15.5715C1.58582 15.5491 1.59412 15.5193 1.62378 15.483C1.69577 15.3949 1.76832 15.3074 1.84092 15.2199C2.34048 14.6179 2.84398 14.011 3.20467 13.1378C3.61926 12.1341 3.83371 10.8269 3.8349 8.76659V8.76616C3.8349 7.0495 4.26944 5.96381 4.81878 5.24552C5.37425 4.5192 6.10208 4.09624 6.814 3.80305L6.81417 3.80298C7.19361 3.6469 7.57221 3.29917 7.70895 2.83326L7.70949 2.8314C7.92155 2.10183 8.46953 1.62335 9.0433 1.62335C9.6171 1.62335 10.1652 2.10147 10.3801 2.83255L10.3806 2.83445C10.5165 3.29259 10.8911 3.64519 11.2748 3.803C11.9853 4.09548 12.7134 4.51926 13.2694 5.24648C13.8192 5.96562 14.254 7.0517 14.254 8.76616C14.254 10.8265 14.4678 12.1337 14.8822 13.1376C15.2426 14.011 15.7462 14.618 16.2458 15.2201C16.3184 15.3075 16.3908 15.3949 16.4628 15.4829C16.5094 15.5402 16.5132 15.5996 16.4829 15.6594C16.4547 15.7151 16.3868 15.7832 16.2392 15.7832H1.85205ZM6.28437 2.39446C6.28308 2.39598 6.28147 2.39779 6.27951 2.39983C6.27316 2.4064 6.26566 2.41275 6.25818 2.41791C6.25124 2.42269 6.24707 2.42457 6.24707 2.42457L6.24662 2.42475C5.40335 2.77201 4.41086 3.32533 3.63482 4.34005C2.85265 5.36279 2.34446 6.78289 2.34439 8.76573"
+              fill="#161616"
+            />
+          </svg>
+        </div>
+        <div class="burger-menu">
+          <input id="burger-menu__toggle" type="checkbox" />
+          <label class="burger-menu__btn" for="burger-menu__toggle">
+            <span></span>
+          </label>
+          <ul class="burger-menu__box">
+            <li><a class="burger-menu__item" href="#">Войти</a></li>
+            <li><a class="burger-menu__item" href="#">Снять</a></li>
+            <li><a class="burger-menu__item" href="#">Сдать</a></li>
+          </ul>
+        </div>
       </div>
     </header>
 
     <main>
-      
-      <h2>Аренда жилья без посредников в Крыму</h2>        
+      <h2>Аренда жилья без посредников в Крыму</h2>
 
       <form action="" method="get">
         <label for="search-location-select">Выбрать город</label>
@@ -94,9 +109,19 @@
 
         <div class="housing-type-switch">
           <div>
-            <input type="radio" name="housing-type" id="search-flat" value="flat" />
+            <input
+              type="radio"
+              name="housing-type"
+              id="search-flat"
+              value="flat"
+            />
             <label for="search-flat">Квартира</label>
-            <input type="radio" name="housing-type" id="search-home" value="home" />
+            <input
+              type="radio"
+              name="housing-type"
+              id="search-home"
+              value="home"
+            />
             <label for="search-home">Дом</label>
           </div>
 
@@ -131,118 +156,37 @@
             <label for="search-rooms-count-four">4</label>
           </div>
         </div>
-        <input type="submit" value="Искать объявления">
+        <input type="submit" value="Искать объявления" />
       </form>
 
       <div class="about-us">
         <h3>Зеленая комната это:</h3>
         <ul>
-          <li><strong>Надежная аренда жилья</strong> от собственника без переплат посредникам</li>
-          <li><strong>Система оповещений</strong> новых объявлений по фильтрам. Это сэкономит время на поиске жилья</li>
-          <li><strong>Автоматический алгоритм</strong> по поиску и сбору обьявлений с досок объявлений и соцсетей</li>
-          <li><strong>Ручная модерация</strong> всех объявлений.Мы звоним по объявлению и проверяем информацию от собственника</li>
+          <li>
+            <strong>Надежная аренда жилья</strong> от собственника без переплат
+            посредникам
+          </li>
+          <li>
+            <strong>Система оповещений</strong> новых объявлений по фильтрам.
+            Это сэкономит время на поиске жилья
+          </li>
+          <li>
+            <strong>Автоматический алгоритм</strong> по поиску и сбору
+            обьявлений с досок объявлений и соцсетей
+          </li>
+          <li>
+            <strong>Ручная модерация</strong> всех объявлений.Мы звоним по
+            объявлению и проверяем информацию от собственника
+          </li>
         </ul>
       </div>
 
-      <div class="posts-container">  
+      <div class="posts-container">
         <div class="posts-container__header">
           <h3>Объявления всех городов</h3>
           <div>
-              <label for="search-location-select">Выбрать город</label>
-              <select name="location-select" id="search-location-select">
-                <option value="alupka">Алупка</option>
-                <option value="alushta">Алушта</option>
-                <option value="armyansk">Армянск</option>
-                <option value="bahchisaray">Бахчисарай</option>
-                <option value="belogorsk">Белогорск</option>
-                <option value="djankoy">Джанкой</option>
-                <option value="yevpatoria">Евпатория</option>
-                <option value="kerch">Керчь</option>
-                <option value="krasnoperekopsk">Красноперекопск</option>
-                <option value="saki">Саки</option>
-                <option value="simferopol">Симферополь</option>
-                <option value="stariy-krim">Старый Крым</option>
-                <option value="sudak">Судак</option>
-                <option value="feodosia">Феодосия</option>
-                <option value="shelkino">Щелкино</option>
-                <option value="yalta">Ялта</option>
-              </select>
-            <p>Найдено: 152</p>
-          </div>
-        </div>
-        <div class="posts-container__posts-list">
-          <div class="post">
-            <div class="photos">
-              <img src="./img/1/1.png" alt="фотография помещения">
-              <img src="./img/1/2.png" alt="фотография помещения">
-              <img src="./img/1/3.png" alt="фотография помещения">
-              <img src="./img/1/4.png" alt="фотография помещения">
-        
-            </div>
-            <div class="description">
-              <div class="description-header">
-                <div class="description-header-title">
-                  <h4><a href="#">1 ком. кв, 33 м<sup>2</sup>, с мебелью, 1/2 эт.</a></h4>
-                  <div class="address">ул. Орлова, д. 26</div>
-                  <div class="price">19 000 ₽/мес.</div>
-                </div>
-
-              </div>
-              <div class="description-text">
-                <p>
-                    Сдам 1-комнатную квартиру с мебелью. Теплая, уютная. Комнаты изолированы
-                    Находится на пересечении Малахова-П.Сухова... <a href="#">Читать далее ↓</a>
-                </p>
-              </div>             
-              <button>Телефон собственника</button>
-            </div>
-          </div>        
-          <div class="post">
-            <div class="photos">
-              <img src="./img/2/1.png" alt="фотография помещения">
-              <img src="./img/2/2.png" alt="фотография помещения">
-              <img src="./img/2/3.png" alt="фотография помещения">
-              <img src="./img/2/4.png" alt="фотография помещения">
-        
-            </div>
-            <div class="description">
-              <div class="description-header">
-                <div class="description-header-title">
-                  <h4><a href="#">1 ком. кв, 35 м<sup>2</sup>, с мебелью, 3/5 эт.</a></h4>
-                  <div class="address">ул. Орлова, д. 26</div>
-                  <div class="price">19 000 ₽/мес.</div>
-                </div>
-
-              </div>
-              <div class="description-text">
-                <p>
-                    Сдам 1-комнатную квартиру с мебелью. Теплая, уютная. Комнаты изолированы
-                    Находится на пересечении Малахова-П.Сухова... <a href="#">Читать далее ↓</a>
-                </p>
-              </div>             
-              <button>8 978 854 87 92</button>
-            </div>
-          </div>        
-        </div>
-        <div class="posts-container__paginator">
-          <button><</button>
-          <button>1</button>
-          <button>2</button>
-          <button>3</button>
-          <button>4</button>
-          <button>5</button>
-          <button>></button>
-        </div>
-
-      </div>
-
-      <div class="subscription">
-        <h3>Подпишись на оповещения новых объявлений</h3>
-        <p>Оповещения приходят на сайте</p>
-
-        <form action="" method="post">
-            <label for="subscription-location-select">Ваш город:</label>
-            <select name="subscription-location-select" id="subscription-location-select">
+            <label for="search-location-select">Выбрать город</label>
+            <select name="location-select" id="search-location-select">
               <option value="alupka">Алупка</option>
               <option value="alushta">Алушта</option>
               <option value="armyansk">Армянск</option>
@@ -260,98 +204,225 @@
               <option value="shelkino">Щелкино</option>
               <option value="yalta">Ялта</option>
             </select>
-            <div class="rent-duration-switch">
-              <input
-                type="radio"
-                name="rent-duration"
-                id="subscription-long-term"
-                value="long-term"
-              />
-              <label for="subscription-long-term">Долгосрочно</label>
-              <input
-                type="radio"
-                name="rent-duration"
-                id="subscription-short-term"
-                value="short-term"
-              />
-              <label for="subscription-short-term">Посуточно</label>
+            <p>Найдено: 152</p>
+          </div>
+        </div>
+        <div class="posts-container__posts-list">
+          <div class="post">
+            <div class="photos">
+              <img src="./img/1/1.png" alt="фотография помещения" />
+              <img src="./img/1/2.png" alt="фотография помещения" />
+              <img src="./img/1/3.png" alt="фотография помещения" />
+              <img src="./img/1/4.png" alt="фотография помещения" />
             </div>
-      
-            <div class="housing-type-switch">
-              <div>
-                <input type="radio" name="housing-type" id="subscription-flat" value="flat" />
-                <label for="subscription-flat">Квартира</label>
-                <input type="radio" name="housing-type" id="subscription-home" value="home" />
-                <label for="subscription-home">Дом</label>
+            <div class="description">
+              <div class="description-header">
+                <div class="description-header-title">
+                  <h4>
+                    <a href="#"
+                      >1 ком. кв, 33 м<sup>2</sup>, с мебелью, 1/2 эт.</a
+                    >
+                  </h4>
+                  <div class="address">ул. Орлова, д. 26</div>
+                  <div class="price">19 000 ₽/мес.</div>
+                </div>
               </div>
-      
-              <div>
-                <input
-                  type="radio"
-                  name="rooms-count"
-                  id="subscription-rooms-count-one"
-                  value="1"
-                />
-                <label for="subscription-rooms-count-one">1</label>
-                <input
-                  type="radio"
-                  name="rooms-count"
-                  id="subscription-rooms-count-two"
-                  value="2"
-                />
-                <label for="subscription-rooms-count-two">2</label>
-                <input
-                  type="radio"
-                  name="rooms-count"
-                  id="subscription-rooms-count-three"
-                  value="3"
-                />
-                <label for="subscription-rooms-count-three">3</label>
-                <input
-                  type="radio"
-                  name="rooms-count"
-                  id="subscription-rooms-count-four"
-                  value="4"
-                />
-                <label for="subscription-rooms-count-four">4</label>
+              <div class="description-text">
+                <p>
+                  Сдам 1-комнатную квартиру с мебелью. Теплая, уютная. Комнаты
+                  изолированы Находится на пересечении Малахова-П.Сухова...
+                  <a href="#">Читать далее ↓</a>
+                </p>
               </div>
+              <button>Телефон собственника</button>
             </div>
-            <input type="submit" value="Подписаться">
-          </form>       
+          </div>
+          <div class="post">
+            <div class="photos">
+              <img src="./img/2/1.png" alt="фотография помещения" />
+              <img src="./img/2/2.png" alt="фотография помещения" />
+              <img src="./img/2/3.png" alt="фотография помещения" />
+              <img src="./img/2/4.png" alt="фотография помещения" />
+            </div>
+            <div class="description">
+              <div class="description-header">
+                <div class="description-header-title">
+                  <h4>
+                    <a href="#"
+                      >1 ком. кв, 35 м<sup>2</sup>, с мебелью, 3/5 эт.</a
+                    >
+                  </h4>
+                  <div class="address">ул. Орлова, д. 26</div>
+                  <div class="price">19 000 ₽/мес.</div>
+                </div>
+              </div>
+              <div class="description-text">
+                <p>
+                  Сдам 1-комнатную квартиру с мебелью. Теплая, уютная. Комнаты
+                  изолированы Находится на пересечении Малахова-П.Сухова...
+                  <a href="#">Читать далее ↓</a>
+                </p>
+              </div>
+              <button>8 978 854 87 92</button>
+            </div>
+          </div>
+        </div>
+        <div class="posts-container__paginator">
+          <button><</button>
+          <button>1</button>
+          <button>2</button>
+          <button>3</button>
+          <button>4</button>
+          <button>5</button>
+          <button>></button>
+        </div>
+      </div>
 
+      <div class="subscription">
+        <h3>Подпишись на оповещения новых объявлений</h3>
+        <p>Оповещения приходят на сайте</p>
+
+        <form action="" method="post">
+          <label for="subscription-location-select">Ваш город:</label>
+          <select
+            name="subscription-location-select"
+            id="subscription-location-select"
+          >
+            <option value="alupka">Алупка</option>
+            <option value="alushta">Алушта</option>
+            <option value="armyansk">Армянск</option>
+            <option value="bahchisaray">Бахчисарай</option>
+            <option value="belogorsk">Белогорск</option>
+            <option value="djankoy">Джанкой</option>
+            <option value="yevpatoria">Евпатория</option>
+            <option value="kerch">Керчь</option>
+            <option value="krasnoperekopsk">Красноперекопск</option>
+            <option value="saki">Саки</option>
+            <option value="simferopol">Симферополь</option>
+            <option value="stariy-krim">Старый Крым</option>
+            <option value="sudak">Судак</option>
+            <option value="feodosia">Феодосия</option>
+            <option value="shelkino">Щелкино</option>
+            <option value="yalta">Ялта</option>
+          </select>
+          <div class="rent-duration-switch">
+            <input
+              type="radio"
+              name="rent-duration"
+              id="subscription-long-term"
+              value="long-term"
+            />
+            <label for="subscription-long-term">Долгосрочно</label>
+            <input
+              type="radio"
+              name="rent-duration"
+              id="subscription-short-term"
+              value="short-term"
+            />
+            <label for="subscription-short-term">Посуточно</label>
+          </div>
+
+          <div class="housing-type-switch">
+            <div>
+              <input
+                type="radio"
+                name="housing-type"
+                id="subscription-flat"
+                value="flat"
+              />
+              <label for="subscription-flat">Квартира</label>
+              <input
+                type="radio"
+                name="housing-type"
+                id="subscription-home"
+                value="home"
+              />
+              <label for="subscription-home">Дом</label>
+            </div>
+
+            <div>
+              <input
+                type="radio"
+                name="rooms-count"
+                id="subscription-rooms-count-one"
+                value="1"
+              />
+              <label for="subscription-rooms-count-one">1</label>
+              <input
+                type="radio"
+                name="rooms-count"
+                id="subscription-rooms-count-two"
+                value="2"
+              />
+              <label for="subscription-rooms-count-two">2</label>
+              <input
+                type="radio"
+                name="rooms-count"
+                id="subscription-rooms-count-three"
+                value="3"
+              />
+              <label for="subscription-rooms-count-three">3</label>
+              <input
+                type="radio"
+                name="rooms-count"
+                id="subscription-rooms-count-four"
+                value="4"
+              />
+              <label for="subscription-rooms-count-four">4</label>
+            </div>
+          </div>
+          <input type="submit" value="Подписаться" />
+        </form>
       </div>
     </main>
 
     <footer>
       <a href="https://vk.com">
-        <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <svg
+          width="15"
+          height="15"
+          viewBox="0 0 15 15"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
           <g clip-path="url(#clip0)">
-          <path d="M12.5 8.30815V7.92251L14.5125 5.40626C14.8277 5.01172 14.9995 4.52185 15 4.01689C14.9997 3.52447 14.6005 3.12536 14.1081 3.125H11.9156C11.577 3.12386 11.271 3.32657 11.14 3.63875C10.716 4.80498 10.1581 5.91805 9.47749 6.95563C9.26798 7.12001 8.97935 7.13982 8.74937 7.00564V3.80876C8.74732 3.43224 8.44278 3.12741 8.06626 3.125H5.31249C5.13991 3.12468 4.99975 3.26437 4.99943 3.43696C4.99928 3.52016 5.03233 3.6 5.09124 3.65876L5.26249 3.83C5.49507 4.06122 5.62559 4.37581 5.62498 4.70375V7.07876C5.59568 7.10868 5.55794 7.12895 5.51684 7.13689C5.40088 7.11899 5.29559 7.0589 5.22121 6.96814C4.41692 5.80136 3.70477 4.57368 3.0912 3.29627C3.03797 3.19122 2.93022 3.12503 2.81244 3.12503H0.812492C0.363781 3.12503 1.1317e-06 3.48878 1.1317e-06 3.93752V4.0969C-0.000526212 4.75608 0.183253 5.40228 0.530626 5.96252C2.20688 8.65939 4.50563 11.875 5.93751 11.875H7.98188C8.40581 11.8743 8.74931 11.5308 8.75002 11.1069V10.5719C8.74987 10.2564 9.00551 10.0005 9.32101 10.0004C9.47283 10.0003 9.6184 10.0607 9.72563 10.1681L11.0231 11.4656C11.2853 11.7287 11.6417 11.876 12.0131 11.875H14.2431C14.6605 11.8744 14.9983 11.5356 14.9976 11.1183C14.9973 10.9185 14.918 10.727 14.7769 10.5856L12.5 8.30815Z" fill="#161616"/>
+            <path
+              d="M12.5 8.30815V7.92251L14.5125 5.40626C14.8277 5.01172 14.9995 4.52185 15 4.01689C14.9997 3.52447 14.6005 3.12536 14.1081 3.125H11.9156C11.577 3.12386 11.271 3.32657 11.14 3.63875C10.716 4.80498 10.1581 5.91805 9.47749 6.95563C9.26798 7.12001 8.97935 7.13982 8.74937 7.00564V3.80876C8.74732 3.43224 8.44278 3.12741 8.06626 3.125H5.31249C5.13991 3.12468 4.99975 3.26437 4.99943 3.43696C4.99928 3.52016 5.03233 3.6 5.09124 3.65876L5.26249 3.83C5.49507 4.06122 5.62559 4.37581 5.62498 4.70375V7.07876C5.59568 7.10868 5.55794 7.12895 5.51684 7.13689C5.40088 7.11899 5.29559 7.0589 5.22121 6.96814C4.41692 5.80136 3.70477 4.57368 3.0912 3.29627C3.03797 3.19122 2.93022 3.12503 2.81244 3.12503H0.812492C0.363781 3.12503 1.1317e-06 3.48878 1.1317e-06 3.93752V4.0969C-0.000526212 4.75608 0.183253 5.40228 0.530626 5.96252C2.20688 8.65939 4.50563 11.875 5.93751 11.875H7.98188C8.40581 11.8743 8.74931 11.5308 8.75002 11.1069V10.5719C8.74987 10.2564 9.00551 10.0005 9.32101 10.0004C9.47283 10.0003 9.6184 10.0607 9.72563 10.1681L11.0231 11.4656C11.2853 11.7287 11.6417 11.876 12.0131 11.875H14.2431C14.6605 11.8744 14.9983 11.5356 14.9976 11.1183C14.9973 10.9185 14.918 10.727 14.7769 10.5856L12.5 8.30815Z"
+              fill="#161616"
+            />
           </g>
           <defs>
-          <clipPath id="clip0">
-          <rect width="15" height="15" fill="white"/>
-          </clipPath>
+            <clipPath id="clip0">
+              <rect width="15" height="15" fill="white" />
+            </clipPath>
           </defs>
-          </svg>
-          
+        </svg>
       </a>
       <a href="#">Подать объявление</a>
       <div class="footer-logo">
-        <svg width="16" height="23" viewBox="0 0 16 23" fill="none" xmlns="http://www.w3.org/2000/svg">
-          <path fill-rule="evenodd" clip-rule="evenodd" d="M9.01591 1.25756C8.95241 1.19619 8.85313 1.10078 8.75487 1.02501C8.65095 0.944872 8.3569 0.729978 7.92344 0.72998C7.48998 0.729983 7.19594 0.944879 7.09202 1.02502C6.99072 1.10313 6.88835 1.2021 6.8252 1.26315C6.82147 1.26676 6.81788 1.27024 6.81443 1.27357L1.3336 6.41199C0.728705 6.9791 0.387451 7.7579 0.387451 8.57127V20.8007C0.387451 21.2498 0.606599 21.6116 0.841874 21.8412C1.0763 22.07 1.4532 22.2902 1.92758 22.2902H14.4599C14.9343 22.2902 15.3112 22.07 15.5456 21.8412C15.7809 21.6116 16 21.2498 16 20.8007V11.8324C16 11.3834 15.7809 11.0215 15.5456 10.7919C15.3112 10.5631 14.9343 10.3429 14.4599 10.3429H5.26953C4.79515 10.3429 4.41824 10.5631 4.18382 10.7919C3.94855 11.0215 3.7294 11.3834 3.7294 11.8324V17.5395C3.7294 17.9886 3.94855 18.3505 4.18382 18.58C4.41825 18.8088 4.79515 19.029 5.26953 19.029H11.1179C11.5923 19.029 11.9692 18.8088 12.2036 18.58C12.4389 18.3505 12.6581 17.9886 12.6581 17.5395V15.0936C12.6581 14.6445 12.4389 14.2827 12.2036 14.0531C11.9692 13.8243 11.5923 13.6041 11.1179 13.6041H8.88549V15.7678H10.4133V16.8651L5.97417 16.8653V12.5067H13.7552V20.1264H2.63222V9.2455H14.4599C14.7478 9.2455 15.3369 9.17311 15.6822 8.63229C15.9985 8.13696 15.8488 7.63842 15.7756 7.44695C15.61 7.01407 15.2577 6.63258 14.9833 6.39627L9.01591 1.25756ZM3.83876 7.08175H12.41L7.94234 3.23453L3.83876 7.08175Z" fill="white"/>
-          <path d="M10.0399 14.6862C10.0399 15.2837 9.53743 15.768 8.91756 15.768C8.29768 15.768 7.79517 15.2837 7.79517 14.6862C7.79517 14.0887 8.29768 13.6043 8.91756 13.6043C9.53743 13.6043 10.0399 14.0887 10.0399 14.6862Z" fill="white"/>
+        <svg
+          width="16"
+          height="23"
+          viewBox="0 0 16 23"
+          fill="none"
+          xmlns="http://www.w3.org/2000/svg"
+        >
+          <path
+            fill-rule="evenodd"
+            clip-rule="evenodd"
+            d="M9.01591 1.25756C8.95241 1.19619 8.85313 1.10078 8.75487 1.02501C8.65095 0.944872 8.3569 0.729978 7.92344 0.72998C7.48998 0.729983 7.19594 0.944879 7.09202 1.02502C6.99072 1.10313 6.88835 1.2021 6.8252 1.26315C6.82147 1.26676 6.81788 1.27024 6.81443 1.27357L1.3336 6.41199C0.728705 6.9791 0.387451 7.7579 0.387451 8.57127V20.8007C0.387451 21.2498 0.606599 21.6116 0.841874 21.8412C1.0763 22.07 1.4532 22.2902 1.92758 22.2902H14.4599C14.9343 22.2902 15.3112 22.07 15.5456 21.8412C15.7809 21.6116 16 21.2498 16 20.8007V11.8324C16 11.3834 15.7809 11.0215 15.5456 10.7919C15.3112 10.5631 14.9343 10.3429 14.4599 10.3429H5.26953C4.79515 10.3429 4.41824 10.5631 4.18382 10.7919C3.94855 11.0215 3.7294 11.3834 3.7294 11.8324V17.5395C3.7294 17.9886 3.94855 18.3505 4.18382 18.58C4.41825 18.8088 4.79515 19.029 5.26953 19.029H11.1179C11.5923 19.029 11.9692 18.8088 12.2036 18.58C12.4389 18.3505 12.6581 17.9886 12.6581 17.5395V15.0936C12.6581 14.6445 12.4389 14.2827 12.2036 14.0531C11.9692 13.8243 11.5923 13.6041 11.1179 13.6041H8.88549V15.7678H10.4133V16.8651L5.97417 16.8653V12.5067H13.7552V20.1264H2.63222V9.2455H14.4599C14.7478 9.2455 15.3369 9.17311 15.6822 8.63229C15.9985 8.13696 15.8488 7.63842 15.7756 7.44695C15.61 7.01407 15.2577 6.63258 14.9833 6.39627L9.01591 1.25756ZM3.83876 7.08175H12.41L7.94234 3.23453L3.83876 7.08175Z"
+            fill="white"
+          />
+          <path
+            d="M10.0399 14.6862C10.0399 15.2837 9.53743 15.768 8.91756 15.768C8.29768 15.768 7.79517 15.2837 7.79517 14.6862C7.79517 14.0887 8.29768 13.6043 8.91756 13.6043C9.53743 13.6043 10.0399 14.0887 10.0399 14.6862Z"
+            fill="white"
+          />
         </svg>
       </div>
       <div class="footer-feedback">
         <p>Связь: <a href="mailto:greenroom@work.ru">greenroom@work.ru</a></p>
         <a href="#">Пользовательское соглашение</a>
       </div>
-
-
     </footer>
-
-
-
   </body>
 </html>
